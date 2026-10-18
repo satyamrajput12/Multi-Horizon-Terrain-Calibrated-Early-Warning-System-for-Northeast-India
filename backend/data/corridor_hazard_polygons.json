@@ -1,0 +1,329 @@
+[
+  {
+    "corridor_id": "CORR-NH10-SIKKIM",
+    "name": "NH-10 Teesta Valley Lifeline Corridor",
+    "highway_no": "NH-10",
+    "state": "Sikkim",
+    "district": "East Sikkim",
+    "description": "Strategic arterial highway connecting Siliguri to Gangtok along steep, sheared Daling phyllite valley slopes.",
+    "center": [27.32, 88.58],
+    "segments": [
+      {
+        "segment_id": "NH10-SEG-01",
+        "name": "Dikchu-Martham Toe-Erosion Stretch",
+        "chainage": "Km 46.2 - Km 49.0",
+        "slope_deg": 44.0,
+        "geology": "Chlorite phyllite with active river toe scouring",
+        "base_risk": 0.88,
+        "vulnerability_type": "Deep Rotational Slump & River Cutting",
+        "polygon": [
+          [27.365, 88.548],
+          [27.368, 88.552],
+          [27.361, 88.558],
+          [27.352, 88.563],
+          [27.348, 88.557],
+          [27.356, 88.550]
+        ]
+      },
+      {
+        "segment_id": "NH10-SEG-02",
+        "name": "Singtam-Ranipool Mountain Flank",
+        "chainage": "Km 38.5 - Km 42.1",
+        "slope_deg": 38.0,
+        "geology": "Jointed quartzite & weathered mica-schist",
+        "base_risk": 0.62,
+        "vulnerability_type": "Translational Rock & Debris Chute",
+        "polygon": [
+          [27.348, 88.557],
+          [27.352, 88.563],
+          [27.339, 88.575],
+          [27.329, 88.586],
+          [27.324, 88.580],
+          [27.334, 88.568]
+        ]
+      },
+      {
+        "segment_id": "NH10-SEG-03",
+        "name": "Ranipool Approach Valley",
+        "chainage": "Km 32.0 - Km 35.8",
+        "slope_deg": 28.0,
+        "geology": "Alluvial river terrace and consolidated colluvium",
+        "base_risk": 0.28,
+        "vulnerability_type": "Surface Gully Wash & Minor Inundation",
+        "polygon": [
+          [27.324, 88.580],
+          [27.329, 88.586],
+          [27.312, 88.599],
+          [27.298, 88.605],
+          [27.294, 88.598],
+          [27.308, 88.591]
+        ]
+      },
+      {
+        "segment_id": "NH10-SEG-04",
+        "name": "Gangtok Ridge Bypass Stretch",
+        "chainage": "Km 28.0 - Km 31.5",
+        "slope_deg": 41.5,
+        "geology": "Steeply dipping weathered phyllite cut-slopes",
+        "base_risk": 0.74,
+        "vulnerability_type": "Retaining Wall Overtopping & Mudflow",
+        "polygon": [
+          [27.294, 88.598],
+          [27.298, 88.605],
+          [27.285, 88.618],
+          [27.272, 88.625],
+          [27.268, 88.617],
+          [27.280, 88.609]
+        ]
+      }
+    ]
+  },
+  {
+    "corridor_id": "CORR-SH05-MEGHALAYA",
+    "name": "SH-5 Shillong-Cherrapunji Scarp Corridor",
+    "highway_no": "SH-5",
+    "state": "Meghalaya",
+    "district": "East Khasi Hills",
+    "description": "High-altitude escarpment highway traversing world's highest rainfall belt and precipitous canyon rims.",
+    "center": [25.32, 91.73],
+    "segments": [
+      {
+        "segment_id": "SH05-SEG-01",
+        "name": "Sohra Rim Canyon Headwall",
+        "chainage": "Km 48.0 - Km 51.5",
+        "slope_deg": 43.5,
+        "geology": "Massive Shella sandstone over fragile limestone cave systems",
+        "base_risk": 0.85,
+        "vulnerability_type": "Catastrophic Rockfall & Scarp Toppling",
+        "polygon": [
+          [25.312, 91.725],
+          [25.318, 91.734],
+          [25.305, 91.741],
+          [25.292, 91.744],
+          [25.288, 91.736],
+          [25.299, 91.730]
+        ]
+      },
+      {
+        "segment_id": "SH05-SEG-02",
+        "name": "Mawkdok Gorge Hairpin Section",
+        "chainage": "Km 36.0 - Km 40.2",
+        "slope_deg": 37.0,
+        "geology": "Fractured siltstone and deep residual soil mantel",
+        "base_risk": 0.65,
+        "vulnerability_type": "Road Embankment Shear & Debris Chute",
+        "polygon": [
+          [25.352, 91.738],
+          [25.358, 91.747],
+          [25.342, 91.755],
+          [25.328, 91.761],
+          [25.322, 91.752],
+          [25.336, 91.744]
+        ]
+      },
+      {
+        "segment_id": "SH05-SEG-03",
+        "name": "Laitryngew Plateau Flank",
+        "chainage": "Km 28.5 - Km 32.0",
+        "slope_deg": 22.0,
+        "geology": "Gently undulating sandstone plateau with scrubland",
+        "base_risk": 0.22,
+        "vulnerability_type": "Sheet Erosion & Shallow Ponding",
+        "polygon": [
+          [25.385, 91.732],
+          [25.390, 91.740],
+          [25.375, 91.748],
+          [25.362, 91.752],
+          [25.358, 91.743],
+          [25.370, 91.736]
+        ]
+      }
+    ]
+  },
+  {
+    "corridor_id": "CORR-NH29-NAGALAND",
+    "name": "NH-29 Kohima - Zubza Sinking Corridor",
+    "highway_no": "NH-29",
+    "state": "Nagaland",
+    "district": "Kohima",
+    "description": "Chronic geological sinking zone connecting Dimapur and Kohima along plastic, water-sensitive Disang shales.",
+    "center": [25.68, 94.08],
+    "segments": [
+      {
+        "segment_id": "NH29-SEG-01",
+        "name": "Zubza Chronic Sinking Pass",
+        "chainage": "Km 62.0 - Km 65.5",
+        "slope_deg": 36.0,
+        "geology": "Weathered Disang black shales with high swelling clay",
+        "base_risk": 0.92,
+        "vulnerability_type": "Continuous Progressive Highway Sinking & Mudflow",
+        "polygon": [
+          [25.698, 94.065],
+          [25.703, 94.072],
+          [25.688, 94.085],
+          [25.674, 94.094],
+          [25.669, 94.086],
+          [25.683, 94.074]
+        ]
+      },
+      {
+        "segment_id": "NH29-SEG-02",
+        "name": "Phesama Cut-Slope Belt",
+        "chainage": "Km 54.0 - Km 58.0",
+        "slope_deg": 33.5,
+        "geology": "Interbedded splintery shale and thin sandstone bands",
+        "base_risk": 0.58,
+        "vulnerability_type": "Translational Slip along Dip Planes",
+        "polygon": [
+          [25.669, 94.086],
+          [25.674, 94.094],
+          [25.659, 94.108],
+          [25.648, 94.116],
+          [25.643, 94.108],
+          [25.654, 94.098]
+        ]
+      },
+      {
+        "segment_id": "NH29-SEG-03",
+        "name": "Kohima Outer Bypass Approach",
+        "chainage": "Km 48.0 - Km 51.2",
+        "slope_deg": 24.0,
+        "geology": "Compacted residual soil and reinforced retaining walls",
+        "base_risk": 0.25,
+        "vulnerability_type": "Localized Drain Blockage",
+        "polygon": [
+          [25.643, 94.108],
+          [25.648, 94.116],
+          [25.635, 94.128],
+          [25.624, 94.135],
+          [25.619, 94.127],
+          [25.630, 94.119]
+        ]
+      }
+    ]
+  },
+  {
+    "corridor_id": "CORR-NH27-ASSAM",
+    "name": "NH-27 Haflong - Jatinga Hill Section",
+    "highway_no": "NH-27",
+    "state": "Assam",
+    "district": "Dima Hasao",
+    "description": "Crucial east-west highway traversing the fragile Barail Range, susceptible to rotational slumping.",
+    "center": [25.17, 93.02],
+    "segments": [
+      {
+        "segment_id": "NH27-SEG-01",
+        "name": "Jatinga Valley Fracture Zone",
+        "chainage": "Km 84.0 - Km 87.5",
+        "slope_deg": 35.0,
+        "geology": "Barail Group carbonaceous shale with thick clay seams",
+        "base_risk": 0.89,
+        "vulnerability_type": "Massive Rotational Slump & Mud Torrent",
+        "polygon": [
+          [25.185, 93.008],
+          [25.190, 93.016],
+          [25.176, 93.028],
+          [25.162, 93.036],
+          [25.157, 93.028],
+          [25.171, 93.018]
+        ]
+      },
+      {
+        "segment_id": "NH27-SEG-02",
+        "name": "New Haflong Railway Overpass Stretch",
+        "chainage": "Km 76.5 - Km 80.2",
+        "slope_deg": 31.0,
+        "geology": "Weathered sandstone-shale interbeds",
+        "base_risk": 0.60,
+        "vulnerability_type": "Embankment Sloughing & Track Submergence",
+        "polygon": [
+          [25.157, 93.028],
+          [25.162, 93.036],
+          [25.148, 93.048],
+          [25.136, 93.056],
+          [25.131, 93.048],
+          [25.143, 93.038]
+        ]
+      },
+      {
+        "segment_id": "NH27-SEG-03",
+        "name": "Mahur River Plateau Transition",
+        "chainage": "Km 68.0 - Km 72.0",
+        "slope_deg": 19.5,
+        "geology": "Low relief alluvial terrace and sandstone cap",
+        "base_risk": 0.20,
+        "vulnerability_type": "Minor Surface Runoff",
+        "polygon": [
+          [25.131, 93.048],
+          [25.136, 93.056],
+          [25.122, 93.068],
+          [25.110, 93.076],
+          [25.105, 93.068],
+          [25.117, 93.058]
+        ]
+      }
+    ]
+  },
+  {
+    "corridor_id": "CORR-NH54-MIZORAM",
+    "name": "NH-54 Durtlang Ridge & Scarp (Aizawl)",
+    "highway_no": "NH-54",
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "description": "Steep north-south strike ridge highway with chronic dip-slope instability and urban cut-slope failures.",
+    "center": [23.76, 92.73],
+    "segments": [
+      {
+        "segment_id": "NH54-SEG-01",
+        "name": "Durtlang Scarp Cliffside Bend",
+        "chainage": "Km 18.0 - Km 21.0",
+        "slope_deg": 41.0,
+        "geology": "Bhuban sandstone interbedded with splintery shale",
+        "base_risk": 0.87,
+        "vulnerability_type": "Catastrophic Quarry Collapse & Wedge Slip",
+        "polygon": [
+          [23.775, 92.720],
+          [23.780, 92.728],
+          [23.766, 92.738],
+          [23.752, 92.744],
+          [23.748, 92.736],
+          [23.760, 92.728]
+        ]
+      },
+      {
+        "segment_id": "NH54-SEG-02",
+        "name": "Bawngkawn Urban Slope Junction",
+        "chainage": "Km 12.0 - Km 15.5",
+        "slope_deg": 35.5,
+        "geology": "Weathered siltstone with unreinforced retaining structures",
+        "base_risk": 0.63,
+        "vulnerability_type": "Toe Erosion & Structural Wall Failure",
+        "polygon": [
+          [23.748, 92.736],
+          [23.752, 92.744],
+          [23.738, 92.754],
+          [23.726, 92.760],
+          [23.721, 92.752],
+          [23.733, 92.744]
+        ]
+      },
+      {
+        "segment_id": "NH54-SEG-03",
+        "name": "Tuirial Valley Approach",
+        "chainage": "Km 05.0 - Km 09.0",
+        "slope_deg": 21.0,
+        "geology": "Thick colluvial mantle in gentle valley floor",
+        "base_risk": 0.24,
+        "vulnerability_type": "Culvert Siltation & Low Slope Creep",
+        "polygon": [
+          [23.721, 92.752],
+          [23.726, 92.760],
+          [23.712, 92.770],
+          [23.700, 92.776],
+          [23.696, 92.768],
+          [23.707, 92.760]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "layer_id": "BHUVAN-BASEMAP-HYBRID",
+    "layer_name": "ISRO Bhuvan 2D Basemap / Satellite Imagery",
+    "provider": "ISRO / National Remote Sensing Centre (NRSC)",
+    "service_type": "OGC WMTS / Tile Service",
+    "endpoint_url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/gwc/service/wmts",
+    "layer_identifier": "bhuvan:india3",
+    "spatial_resolution": "2.5m - 30m (Cartosat / LISS-IV)",
+    "access_method": "Permitted Open Web Mapping Service (Attribution Required)",
+    "licensing_terms": "Copyright ISRO/NRSC. Non-commercial, research and disaster management use permitted under Bhuvan Terms of Use.",
+    "status": "Accessible / Active Basemap Layer",
+    "coverage": "Pan-India & NER Focus"
+  },
+  {
+    "layer_id": "BHUVAN-THEMATIC-LULC",
+    "layer_name": "Bhuvan Land Use / Land Cover (LULC 50k)",
+    "provider": "NRSC / ISRO Disaster Management Support",
+    "service_type": "OGC WMS",
+    "endpoint_url": "https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms",
+    "layer_identifier": "lulc:lulc_50k_1516",
+    "spatial_resolution": "1:50,000 scale (23.5m LISS-III)",
+    "access_method": "WMS GetMap / Thematic View",
+    "licensing_terms": "Open for research and disaster mitigation visualization. Direct raster download requires institutional Bhuvan-NOEDA authorization.",
+    "status": "Documented Service / Thematic Overlay",
+    "coverage": "North Eastern Region"
+  },
+  {
+    "layer_id": "GSI-NLSM-SUSCEPTIBILITY",
+    "layer_name": "GSI National Landslide Susceptibility Mapping (NLSM)",
+    "provider": "Geological Survey of India (GSI) / Bhukosh",
+    "service_type": "Bhukosh Geospatial Service & Micro-zonation Maps",
+    "endpoint_url": "https://bhukosh.gsi.gov.in/Bhukosh/MapViewer.aspx",
+    "layer_identifier": "GSI:NLSM_NER_MACRO",
+    "spatial_resolution": "1:50,000 macro-zonation (High/Very High/Moderate/Low)",
+    "access_method": "Documented GSI NLSM polygons digitized for NER corridors",
+    "licensing_terms": "Government of India National Geospatial Policy 2022. Free for academic and disaster warning integration with mandatory attribution.",
+    "status": "Integrated Digitized Baselines",
+    "coverage": "Sikkim, Meghalaya, Assam, Mizoram, Nagaland, Arunachal Pradesh"
+  },
+  {
+    "layer_id": "IMD-MAUSAM-NOWCAST",
+    "layer_name": "IMD District Warning & Station Nowcast Feed",
+    "provider": "India Meteorological Department (IMD) / MoES",
+    "service_type": "Daily Meteorological Bulletins & District Warning Codes",
+    "endpoint_url": "https://mausam.imd.gov.in/responsive/districtRainfallWarning.php",
+    "layer_identifier": "IMD:NER_DISTRICT_WARNING",
+    "spatial_resolution": "District-level color codes (Green, Yellow, Orange, Red)",
+    "access_method": "Official Public Bulletin Ingestion",
+    "licensing_terms": "Government of India, Ministry of Earth Sciences public weather dissemination.",
+    "status": "Operational District Level Alert Baseline",
+    "coverage": "All 120+ NER Districts"
+  }
+]
