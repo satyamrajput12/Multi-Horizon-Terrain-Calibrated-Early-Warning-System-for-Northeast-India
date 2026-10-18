@@ -4,26 +4,6 @@ import { ShieldAlert, Activity, Layers, Bell, BarChart2, Database, MapPin } from
 export default function Navbar({ activeTab, setActiveTab, alertCount, isFallbackActive }) {
   return (
     <header className="bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
-      {/* Top Warning Banner */}
-      <div className="bg-amber-950/80 border-b border-amber-800/60 px-4 py-1.5 text-xs text-amber-200 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <ShieldAlert className="w-4 h-4 text-amber-400 shrink-0" />
-          <span>
-            <strong className="font-semibold text-amber-300">SCIENTIFIC PROTOTYPE NOTICE:</strong> Multi-Horizon 70-Hour Landslide Risk Forecasting System (NER) — SIH 2026 Problem Statement ID 26001. Experimental model output; not an official government emergency alert.
-          </span>
-        </div>
-        <div className="flex items-center gap-3 text-xs shrink-0">
-          <span className="flex items-center gap-1.5 text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Live NWP Engine Active
-          </span>
-          {isFallbackActive && (
-            <span className="text-amber-400 bg-amber-900/50 px-2 py-0.5 rounded border border-amber-700">
-              Offline Fallback Engaged
-            </span>
-          )}
-        </div>
-      </div>
 
       {/* Main Navigation Bar */}
       <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-4">
